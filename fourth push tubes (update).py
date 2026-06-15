@@ -45,3 +45,13 @@ def main():
                 insertion_sort_tanggal()
             else:
                 print("\n [!] Pilihan sub-menu salah.")
+        elif pilihan == "7":
+            rekomendasi_ootd()
+        elif pilihan == "0":
+            print("\n [Sistem Selesai] Lemari pakaian telah dikunci kembali. Terima kasih!")
+            break
+        else:
+            print("\n [!] Kode menu tidak valid. Silakan coba lagi.")
+
+if __name__ == "__main__":
+    main()
